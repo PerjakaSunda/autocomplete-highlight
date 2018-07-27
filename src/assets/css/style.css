@@ -1,0 +1,100 @@
+
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow: hidden;
+}
+
+#app {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 7px;
+  height: 100%;
+  background: #fbfbfb;
+}
+
+.container {
+  margin: 0 auto;
+  width: 400px;
+  height: 100%;
+  overflow-y: auto;
+  background: #fbfbfb;
+  padding: 15px 10px;
+  box-shadow: 0px 0px 5px #aaaaaa66;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.container.product {
+  background: #ffffff;
+}
+
+.search {
+  width: 100%;
+  outline: none;
+  padding: 5px 7px;
+  font-size: 14px;
+  margin-bottom: 15px;
+  border: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.inner > a.list-result {
+  display: block;
+  color: #333333;
+  text-decoration: none;
+  padding: 5px 7px;
+  margin-bottom: 3px;
+  background: #e8e8ee;
+  font-size: 14px;
+}
+
+.inner > a.list-result:hover {
+  background: #eaeaee;
+}
+
+.inner > a.list-result > span.list-result-price {
+  float: right;
+}
+
+.inner > a.list-result > div.list-result-name > span.hl {
+  color: #1976d2;
+}
+
+.product-view {
+  text-align: center;
+}
+.product-view > div {
+  margin-bottom: 20px;
+}
+.product-view > .product-name {
+  font-size: 20px;
+}
+.product-view > .product-photo > img {
+  width: 90%;
+}
+.product-view > .product-price {}
+.product-view > .product-price > span {
+  background: #1976d2;
+  border-radius: 30px;
+  font-size: 12px;
+  padding: 5px 20px;
+  color: #ffffff;
+  display: inline-block;
+  cursor: pointer;
+}
+.product-view > .product-price > span {}
+
+@media (max-width: 768px) {
+  .container {
+    width: 100%;
+  }
+  .product-view > .product-photo > img {
+    width: 200px;
+  }
+}
