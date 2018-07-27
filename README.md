@@ -1,4 +1,4 @@
-# directive-search
+# autocomplete-highlight
 
 ## Project setup
 ```
