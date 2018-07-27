@@ -3,7 +3,7 @@ import App from './App.vue'
 import router from './router'
 import store from './store'
 
-import(/* webpackChunkName: "home" */ './assets/css/style.css')
+import(/* webpackChunkName: "css" */ './assets/css/style.css')
 
 Vue.config.productionTip = false
 
